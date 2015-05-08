@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    {% block head %}
+<title>EliteCircle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet"  type="text/css" href="../static/css/EliteCircle.css"/>
+    {% endblock %}
+</head>
+<body>
+<div id="header">
+  <div id="header-content">
+    <h1 id="logo">Forrex<span class="orange">App</span></h1>
+    <h2 id="slogan">calculate your risk</h2>
+    <!--<div id="header-links">
+      <p> <a href="#">Home</a> | <a href="#">Contact</a> | <a href="#">Site Map</a> </p>
+    </div>-->
+    <ul>
+      <li><a href="#" id="current">Home</a></li>
+      <li><a href="#">risk calculation</a></li>
+      <li><a href="#">purchease history</a></li>
+      <li><a href="#">alerts</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </div>
+</div>
+<div id="content-wrap">
+  <div id="content">
+       {% block content %}
+       {% endblock %}
+  </div>
+</div>
+<div id="footer">
+  <div id="footer-content">
+  </div>
+</div>
+</body>
+</html>
