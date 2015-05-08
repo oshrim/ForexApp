@@ -180,7 +180,7 @@ input.button {
 	font: normal 40px/65px Georgia, "Times New Roman", Times, serif;
 	letter-spacing: -1px; 
 	color: #FFF;
-	background: #3F1204 url(logobg.jpg) repeat-x left top;
+	background: #3F1204 url(../images/logobg.jpg) repeat-x left top;
 	border: 1px solid #4E460F;
 	height: 65px;
 	padding: 0 10px;
@@ -247,7 +247,7 @@ input.button {
 	clear: both;
 	float: left;
 	width: 100%;
-	background: #FFF url(contentbg.jpg) repeat-y center top;	
+	background: #FFF url(../images/contentbg.jpg) repeat-y center top;	
 }
 #content {
 	text-align: left;	
@@ -303,7 +303,7 @@ input.button {
 	margin: 0; padding: 25px 0;
 	font: normal .95em 'Trebuchet MS', Tahoma, sans-serif;
 	text-align: left;	
-	background: url(footerbg.jpg) repeat-x 0% 0%;
+	background: url(../images/footerbg.jpg) repeat-x 0% 0%;
 	color: #CCC;
 }
 #footer p {
@@ -383,15 +383,15 @@ input.button {
 	margin: 20px 15px 10px 15px;	
 }
 .post-footer .date {
-	background: url('clock.gif') no-repeat left center; 
+	background: url('../images/clock.gif') no-repeat left center; 
 	padding-left: 20px; margin: 0 10px 0 5px;	
 }
 .post-footer .comments {
-	background: url('comment.gif') no-repeat left center; 
+	background: url('../images/comment.gif') no-repeat left center; 
 	padding-left: 20px; margin: 0 10px 0 5px;	
 }
 .post-footer .readmore {
-	background: url('page.gif') no-repeat left center;
+	background: url('../images/page.gif') no-repeat left center;
 	padding-left: 20px; margin: 0 10px 0 5px;	
 }
 
