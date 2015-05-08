@@ -1,7 +1,6 @@
 __author__ = 'Oshri&Yaacov'
 
 from google.appengine.ext.webapp import template
-
 import webapp2
 
 class IndexHandler(webapp2.RequestHandler):
@@ -12,4 +11,4 @@ class IndexHandler(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication([
     ('/',IndexHandler)
-], debug=True) 
+], debug=True)
